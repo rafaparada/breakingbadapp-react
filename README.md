@@ -1,5 +1,9 @@
 # Getting Started with Create React App
-
+Ejemplo básico de react utilizando customs hooks, lee la api de breaking bad carga todos los personajes en un select
+luego al seleccionar un personaje nos muestra la info de ese personaje.
+ puedes ver el ejemplo aqui
+ https://rafaparada.github.io/breakingbadapp-react/
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
