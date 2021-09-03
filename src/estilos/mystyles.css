@@ -1,0 +1,48 @@
+.mycard {
+    perspective: 150rem;
+    position: relative;
+    /* height: 40rem; */
+    max-width: 400px;
+    margin: 2rem;
+    box-shadow: none;
+    background: none;
+  }
+  
+  .mycard-side {
+    /* height: 35rem; */
+    border-radius: 15px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    /* padding:2rem; */
+    color: white
+  }
+  
+  .mycard-side.back {
+    transform: rotateY(-180deg);
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%,#C850C0 46%, #FFCC70 100%);
+  }
+  
+  .mycard-side.front {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  }
+  
+  .mycard:hover .mycard-side.front {
+    transform: rotateY(180deg);
+  }
+  
+  .mycard:hover .mycard-side.back {
+    transform: rotateY(0deg);
+  }
+
+  .myimg{
+    width:100%;
+    height:100%;
+    object-fit:fill;
+    border-radius: 15px;
+  }
